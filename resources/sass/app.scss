@@ -1,1 +1,17 @@
 //
+main{
+    .title{
+        text-align: center;
+    }
+    div.trains{
+        display: flex;
+        flex-wrap: wrap;
+        div.card{
+            padding: 30px;
+            margin: 30px;
+            height: 300px;
+            width: 250px;
+            border: 2px solid black;
+        }
+    }
+}

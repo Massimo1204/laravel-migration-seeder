@@ -1,0 +1,14 @@
+main .title {
+  text-align: center;
+}
+main div.trains {
+  display: flex;
+  flex-wrap: wrap;
+}
+main div.trains div.card {
+  padding: 30px;
+  margin: 30px;
+  height: 300px;
+  width: 250px;
+  border: 2px solid black;
+}
