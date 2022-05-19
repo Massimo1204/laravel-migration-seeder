@@ -6,6 +6,7 @@ main{
     div.trains{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         div.card{
             padding: 30px;
             margin: 30px;

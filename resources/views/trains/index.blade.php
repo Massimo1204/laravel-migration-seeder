@@ -10,6 +10,7 @@
                 <p>Arrival: {{$train->destination_station}}</p>
                 <p>Departure Time: {{$train->departure_time}}</p>
                 <p>Arrival Time: {{$train->arrival_time}}</p>
+                <a href="{{route('trains.show', $train->id)}}">View Details</a>
             </div>
         @endforeach
     </div>

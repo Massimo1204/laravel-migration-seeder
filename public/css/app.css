@@ -4,6 +4,7 @@ main .title {
 main div.trains {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 main div.trains div.card {
   padding: 30px;
